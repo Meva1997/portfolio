@@ -3,84 +3,110 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./index.css">
   <title>My Portfolio</title>
 </head>
 <body>
 
-  <!-- Navbar at the top of the viewport -->
-  <header id="navbar">
-    <nav>
-      <a href="#welcome-section">Welcome</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
+  <header>
+    <section class="menu-top" id="menu-top">
+      <nav class="nav-list">
+        <ul>
+          <li><a href="#welcome">Home</a></li>
+          <li><a href="#projects-title">Projects</a></li>
+          <li><a href="#certifications-title">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </section>
   </header>
-
 
   <main>
   <!-- Welcome Section -->
-  <section id="welcome-section">
-    <h1>Welcome to My Portfolio</h1>
-  </section>
-  
+    <section id="welcome" class="welcome">
+      <h1 class="welcome-title">Welcome to My Portfolio</h1>
+      <p class="welcome-text">By: Alejandro Medina</p>
+      <p class="welcome-job">Front-end Developer</p>
+    </section>
 
-  <!-- Projects Section -->
-  <section id="projects">
-    <article class="github">
-      <h2>GitHub Projects</h2>
-        <ul>
-          <li>
-            <a href="https://meva1997.github.io/e-commerce/" id="profile-link" target="_blank" class="project-tile">E-commerce</a>
-          </li>
-          <li>
-            <a href="https://meva1997.github.io/bootstrap-F1/" id="profile-link" target="_blank" class="project-tile">F1</a>
-          </li>
-          <li>
-            <a href="https://meva1997.github.io/f1.2-bootstrap/" id="profile-link" target="_blank" class="project-tile">F1.2</a>
-          </li>
-          <li>
-            <a href="https://meva1997.github.io/formulario-JS/" id="profile-link" target="_blank" class="project-tile">Form JS</a>
-          </li>
-          <li>
-            <a href="https://meva1997.github.io/carrito-1/" id="profile-link" target="_blank" class="project-tile">Shopping Cart JS</a>
-          </li>
-          <li>
-            <a href="https://meva1997.github.io/cita-paciente/" id="profile-link" target="_blank" class="project-tile">Registro lista de pacientes</a>
-          </li>
-        </ul>
-    </article>
+    <section class="libraries">
+      <img class="img-html" src="./img/html_24dp_EA3323_FILL0_wght400_GRAD0_opsz24.png">
+      <img class="img-css" src="./img/css_24dp_5084C1_FILL0_wght400_GRAD0_opsz24.png">
+      <img class="img-js" src="./img/javascript_24dp_FFFF55_FILL0_wght400_GRAD0_opsz24.png">
+    </section>
 
-    <article class="freeCodeCamp">
-        <h2>freeCodeCamp</h2>
-          <ul>
-            <li>
-              <a href="https://www.freecodecamp.org/Meva1997" id="profile-link" target="_blank" class="project-tile2"> freeCodeCamp</a>
-            </li>
-          </ul>
-    </article>
+    <h2 class="proyects-title" id="projects-title">My projects</h2>
 
-    <article class="google">
-        <h2>Google Cybersecurity certifications</h2>
-          <ul>
-            <li>Play It Safe: Manage Security Risks</li>
-            <li>Connect and Protect: Networks and Network Security</li>
-            <li>Foundations of Cybersecurity</li>
-          </ul>
-    </article>
-  </section>
-</main>
+    <section class="proyects">
+      <article class="poke-api">
+        <img class="img-poke" src="./img/poke-api.png">
+        <a class="poke-text" href="https://meva1997.github.io/Poke-api/" target="_blank" rel="noopener noreferrer">Pokedex</a>
+      </article>
 
-  <hr>
- 
-<footer>
-  <section id="contact">
-    <h3>Contact Me</h3>
-    <ul class="contact-email">
-      <li>alexmedval2@gmail.com</li>
-    <ul>
-  </section>
-</footer>
+      <article class="f1-boot">
+        <img class="img-boot" src="./img/f1-news.png">
+        <a class="f1-text" href="https://meva1997.github.io/f1.2-bootstrap/#header" target="_blank" rel="noopener noreferrer">F1 News</a>
+      </article>
 
+      <article class="cita-paciente">
+        <img class="img-cita" src="./img/cita-paciente.png">
+        <a class="cita-text" href="https://meva1997.github.io/cita-paciente/" target="_blank" rel="noopener noreferrer">Cita Pacientes</a>
+      </article>
+
+      <article class="form-js">
+        <img class="img-form" src="./img/js-form.png">
+        <a class="form-text" href="https://meva1997.github.io/formulario-JS/" target="_blank" rel="noopener noreferrer">JS Form</a>
+      </article>
+
+      <article class="recipie-api">
+        <img class="img-recipie" src="./img/api-recipie.png">
+        <a class="recipie-text" href="https://meva1997.github.io/recetas_JS-api/index.html" target="_blank" rel="noopener noreferrer">Recipies</a>
+      </article>
+
+      <article class="palindrome">
+        <img class="img-palindrome" src="./img/palindrome.png">
+        <a class="palindrome-text" href="https://meva1997.github.io/palindrome-words/" target="_blank" rel="noopener noreferrer">Palindrome</a>
+      </article>
+    </section>
+
+    <h2 class="certifications-title" id="certifications-title">Certifications</h2>
+
+    <section class="certifications">
+
+      <article class="freeCamp">
+        <a href="https://www.freecodecamp.org/certification/Meva1997/responsive-web-design" target="_blank" rel="noopener noreferrer" class="freeCamp-text">freeCodeCamp Responsive Web Design</a><img src="./img/responsiveDesign-freeCamp.png" class="img-freeCamp">
+      </article>
+
+      <hr>
+
+      <article class="google">
+        <a class="cert-text">Play It Safe: Manage Security Risks <img src="./img/security-risk.png" class="img-cert"></a>
+        <a class="cert-text">Connect and Protect: Networks and Network Security <img src="./img/network-security.png" class="img-cert"></a>
+        <a class="cert-text">Foundations of Cybersecurity <img src="./img/foundations-cybersecurity.png" class="img-cert"></a>
+      </article>
+
+    </section>
+  </main>
+  <footer>
+
+    <h2 class="contact-title">Contact</h2>
+    
+    <section class="contact" id="contact">
+      <div class="email-contact"> 
+        <img src="./img/mail_24dp_4B77D1_FILL0_wght400_GRAD0_opsz24.svg" class="img-email"><p class="email-text">alexmedval2@gmail.com</p>
+      </div>
+      <div class="gitHub-contact">
+        <a href="https://github.com/Meva1997" class="gitHub-text"><img src="./img/github.svg" class="img-gitHub">Git Hub</a>
+      </div>
+      <div class="home-contact">
+        <a href="#menu-top" class="home"><img src="./img/home_24dp_00FF59_FILL0_wght400_GRAD0_opsz24.svg" class="img-home">Home</a> 
+      </div>
+    </section>
+
+  </footer>
+      
 </body>
 </html>
