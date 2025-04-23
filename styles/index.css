@@ -157,7 +157,7 @@ main .proyects {
     gap: 30px;
   }
 }
-main .poke-api, main .f1-boot, main .cita-paciente, main .form-js, main .recipie-api, main .palindrome {
+main .poke-api, main .f1-boot, main .cita-paciente, main .form-js, main .recipie-api, main .cotizador {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -165,27 +165,27 @@ main .poke-api, main .f1-boot, main .cita-paciente, main .form-js, main .recipie
   justify-content: center;
 }
 @media (max-width: 650px) {
-  main .poke-api, main .f1-boot, main .cita-paciente, main .form-js, main .recipie-api, main .palindrome {
+  main .poke-api, main .f1-boot, main .cita-paciente, main .form-js, main .recipie-api, main .cotizador {
     border-bottom: 1px solid white;
     width: 100%;
     max-width: 50%;
     margin: 10px auto;
   }
 }
-main .img-poke, main .img-boot, main .img-cita, main .img-form, main .img-recipie, main .img-palindrome {
+main .img-poke, main .img-boot, main .img-cita, main .img-form, main .img-recipie, main .img-cotizador {
   width: 100%;
   max-width: 500px;
   height: 300px;
   border-radius: 5px;
 }
 @media (max-width: 980px) {
-  main .img-poke, main .img-boot, main .img-cita, main .img-form, main .img-recipie, main .img-palindrome {
+  main .img-poke, main .img-boot, main .img-cita, main .img-form, main .img-recipie, main .img-cotizador {
     height: 200px;
     width: 300px;
   }
 }
 @media (max-width: 500px) {
-  main .img-poke, main .img-boot, main .img-cita, main .img-form, main .img-recipie, main .img-palindrome {
+  main .img-poke, main .img-boot, main .img-cita, main .img-form, main .img-recipie, main .img-cotizador {
     width: 280px;
   }
 }
@@ -314,14 +314,14 @@ main .recipie-text:hover {
     text-align: center;
   }
 }
-main .palindrome-text {
+main .cotizador-text {
   text-decoration: none;
   margin-top: 25px;
   font-size: 25px;
   font-family: "Edu AU VIC WA NT Arrows", serif;
   color: white;
 }
-main .palindrome-text:hover {
+main .cotizador-text:hover {
   transform: scale(1.2);
   transition: 0.2s ease-in;
   border-radius: 100vmax;
@@ -329,12 +329,12 @@ main .palindrome-text:hover {
   box-shadow: 0 0 5px 5px #0b8c12;
 }
 @media (max-width: 650px) {
-  main .palindrome-text {
+  main .cotizador-text {
     margin-block: 20px;
   }
 }
 @media (max-width: 500px) {
-  main .palindrome-text {
+  main .cotizador-text {
     font-size: 20px;
     text-align: center;
   }
